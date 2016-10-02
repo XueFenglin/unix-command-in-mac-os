@@ -5,14 +5,10 @@
 - Ctrl-a Move cursor to start of line
 - Ctrl-e Move cursor to end of line
 - Ctrl-b Move back one character
-- Alt-b Move back one word
 - Ctrl-f Move forward one character
-- Alt-f Move forward one word
 - Ctrl-d Delete current character
 - Ctrl-w Cut the last word
 - Ctrl-k Cut everything after the cursor
-- Alt-d Cut word after the cursor
-- Alt-<- cut word before the cursor
 - Ctrl-y Paste the last deleted command
 - Ctrl-_ Undo
 - Ctrl-u Cut everything before the cursor
@@ -24,6 +20,11 @@
 - Ctrl-g Cancel the search and restore original line
 - Ctrl-n Next command from the History
 - Ctrl-p previous command from the History
+
+- Alt-b Move back one word
+- Alt-d Cut word after the cursor
+- Alt-<- cut word before the cursor
+- Alt-f Move forward one word
 
 - Option + click line: Move cursor to click point
 
